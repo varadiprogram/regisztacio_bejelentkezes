@@ -8,7 +8,7 @@ while True:
         log_jelszó = input("Jelszó: ")
         print("")
     # hibas jelszó estén
-        while log_felhasznaló != "Varadi23" or log_jelszó != "20071023aA":
+        while log_felhasznaló != "Admin" or log_jelszó != "123":
             print("Helytelen Felhasznélónév vagy Jelszó")
             log_felhasznaló = input("Felhasználónév: ")
             log_jelszó = input("jelszó: ")
